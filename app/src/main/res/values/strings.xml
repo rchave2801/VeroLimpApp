@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VeroLimp</string>
+    <string name="hint_user">Username</string>
+    <string name="hint_pass">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register">Register</string>
+</resources>
