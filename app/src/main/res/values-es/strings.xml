@@ -4,4 +4,8 @@
     <string name="hint_pass">Contraseña</string>
     <string name="sign_in">Iniciar sesión</string>
     <string name="register">Registrarse</string>
+    <string name="registerForm">Nuevo usuario</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_address">Dirección</string>
+    <string name="hint_mail">Correo Electrónico</string>
 </resources>

@@ -16,10 +16,7 @@ public class LoginPresenter implements ILoginPresenter {
 
     @Override
     public boolean signIn() {
-        if (user.equals("admin") && pass.equals("1234"))
-            return true;
-        else
-            return false;
+        return user.equals("admin") && pass.equals("1234");
 
     }
 
