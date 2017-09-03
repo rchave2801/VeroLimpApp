@@ -1,6 +1,7 @@
 package com.yotampocoloentendia.verolimp.view.activities;
 
 import android.content.Intent;
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -34,6 +35,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
+        tvRegister.setPaintFlags(tvRegister.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
     }
 
     @OnClick({R.id.btLogin, R.id.tvRegister})
@@ -46,10 +48,11 @@ public class LoginActivity extends AppCompatActivity {
                 intent.putExtra("mail", inputMail.getText().toString());
                 startActivity(intent);
             } else
-                intent = new Intent(this, RegisterActivity.class);
-            Toast.makeText(this, "Usuario y/o contraseña invalidos", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Usuario y/o contraseña invalidos", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(this, "Registrando nuevo usuario...", Toast.LENGTH_SHORT).show();
+            intent = new Intent(this, RegisterActivity.class);
+            startActivity(intent);
+            //Toast.makeText(this, "Registrando nuevo usuario...", Toast.LENGTH_SHORT).show();
         }
     }
 

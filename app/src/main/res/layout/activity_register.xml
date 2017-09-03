@@ -148,7 +148,7 @@
         android:layout_alignLeft="@id/input_layout_phone"
         android:layout_alignRight="@id/input_layout_phone"
         android:layout_below="@+id/input_layout_phone"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:text="@string/btRegister"/>
 
 </RelativeLayout>

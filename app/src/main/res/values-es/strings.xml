@@ -8,4 +8,6 @@
     <string name="hint_name">Nombre</string>
     <string name="hint_address">Dirección</string>
     <string name="hint_mail">Correo Electrónico</string>
+    <string name="hint_phone">Teléfono</string>
+    <string name="btRegister">Registrar</string>
 </resources>
