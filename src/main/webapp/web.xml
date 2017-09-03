@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+02
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+03
+    xmlns="http://java.sun.com/xml/ns/javaee"
+04
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+05
+    id="WebApp_ID" version="3.0">
+06
+    <welcome-file-list>
+07
+        <welcome-file>index.html</welcome-file>
+08
+        <welcome-file>index.htm</welcome-file>
+09
+        <welcome-file>index.jsp</welcome-file>
+10
+        <welcome-file>default.html</welcome-file>
+11
+        <welcome-file>default.htm</welcome-file>
+12
+        <welcome-file>default.jsp</welcome-file>
+13
+    </welcome-file-list>
+14
+    <servlet>
+15
+        <servlet-name>LoginService</servlet-name>
+16
+        <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+17
+        <init-param>
+18
+            <param-name>jersey.config.server.provider.packages</param-name>
+19
+            <param-value>com.javacodegeeks.examples.jersey, com.jersey.jaxb, com.fasterxml.jackson.jaxrs.json</param-value>
+20
+        </init-param>
+21
+        <init-param>
+22
+            <param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
+23
+            <param-value>true</param-value>
+24
+        </init-param>
+25
+        <load-on-startup>1</load-on-startup>
+26
+    </servlet>
+27
+    <servlet-mapping>
+28
+        <servlet-name>LoginService</servlet-name>
+29
+        <url-pattern>/JavaCodeGeeks/*</url-pattern>
+30
+    </servlet-mapping>
+31
+</web-app>
