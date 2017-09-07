@@ -6,6 +6,6 @@ package com.yotampocoloentendia.verolimp.presenter.login;
 
 public interface ILoginPresenter {
 
-    boolean signIn();
-    boolean signOut();
+    void signIn(String email, String password);
+    void signOut(String email);
 }

@@ -1,4 +1,4 @@
-package com.yotampocoloentendia.verolimp.view.activities;
+package com.yotampocoloentendia.verolimp.view.activities.register;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

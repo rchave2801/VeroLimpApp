@@ -6,22 +6,16 @@ package com.yotampocoloentendia.verolimp.presenter.login;
 
 public class LoginPresenter implements ILoginPresenter {
 
-    private String user;
-    private String pass;
-
-    public LoginPresenter (String user, String pass) {
-        this.user = user;
-        this.pass = pass;
+    public LoginPresenter () {
     }
 
     @Override
-    public boolean signIn() {
-        return user.equals("admin") && pass.equals("1234");
+    public void signIn(String email, String password) {
 
     }
 
     @Override
-    public boolean signOut() {
-        return true;
+    public void signOut(String email) {
+
     }
 }

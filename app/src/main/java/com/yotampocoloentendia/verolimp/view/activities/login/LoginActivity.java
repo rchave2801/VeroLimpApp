@@ -1,4 +1,4 @@
-package com.yotampocoloentendia.verolimp.view.activities;
+package com.yotampocoloentendia.verolimp.view.activities.login;
 
 import android.content.Intent;
 import android.graphics.Paint;
@@ -12,6 +12,8 @@ import android.widget.Toast;
 
 import com.yotampocoloentendia.verolimp.R;
 import com.yotampocoloentendia.verolimp.presenter.login.LoginPresenter;
+import com.yotampocoloentendia.verolimp.view.activities.MainActivity;
+import com.yotampocoloentendia.verolimp.view.activities.register.RegisterActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/deepBlue"
     android:layout_centerVertical="true"
-    tools:context="com.yotampocoloentendia.verolimp.view.activities.LoginActivity">
+    tools:context="com.yotampocoloentendia.verolimp.view.activities.login.LoginActivity">
 
     <android.support.design.widget.TextInputLayout
         android:id="@+id/input_layout_mail"

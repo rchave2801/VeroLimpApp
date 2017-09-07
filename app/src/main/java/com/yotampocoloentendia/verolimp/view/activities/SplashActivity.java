@@ -1,21 +1,20 @@
 package com.yotampocoloentendia.verolimp.view.activities;
 
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 
 import com.yotampocoloentendia.verolimp.R;
+import com.yotampocoloentendia.verolimp.view.activities.login.LoginActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class SplashActivity extends AppCompatActivity {
 
-    private final int SPLASH_DISPLAY_LENGTH = 3000;
+    private final int SPLASH_DISPLAY_LENGTH = 4000;
     @BindView(R.id.splashScreen)
     ImageView splashScreen;
 
